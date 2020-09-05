@@ -12,7 +12,8 @@ app.listen(8080); // Recebe solicitações que o deixa online
 
 const Discord = require("discord.js"); //Conexão com a livraria Discord.js
 const client = new Discord.Client(); //Criação de um novo Client
-const { prefix, token } = require("./config.json"); //Pegando o prefixo do bot para respostas de comandos
+const { prefix } = require("./config.json"); //Pegando o prefixo do bot para respostas de comandos
+const { token } = require("./mytoken.json"); //Pegando o prefixo do bot para respostas de comandos
 const audio = "./audio_1.mp3"
 
 
