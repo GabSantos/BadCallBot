@@ -1,0 +1,12 @@
+{
+  "name": "badcallbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/GabSantos/BadCallBot.git",
+  "author": "Gabriel Santos <gabrogolt@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "express": "^4.17.1"
+  }
+}
