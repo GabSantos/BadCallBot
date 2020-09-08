@@ -8,9 +8,11 @@
   "dependencies": {
     "discord.js": "^12.3.1",
     "express": "^4.17.1",
-    "opusscript": "^0.0.7"
+    "nodemon": "^2.0.4",
+    "opusscript": "^0.0.7",
+    "request": "^2.88.2"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon index.js"
   }
 }
